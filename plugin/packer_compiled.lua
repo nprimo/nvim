@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",

@@ -12,5 +12,7 @@ return require('packer').startup(function()
       use 'nvim-treesitter/nvim-treesitter'
       use 'akinsho/bufferline.nvim'
       use 'lewis6991/gitsigns.nvim'
+      use 'hrsh7th/nvim-cmp'
+      use 'williamboman/mason.nvim'
 end)
 

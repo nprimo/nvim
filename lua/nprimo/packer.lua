@@ -11,3 +11,4 @@ return require('packer').startup(function()
       use 'nvim-telescope/telescope.nvim'
       use 'nvim-treesitter/nvim-treesitter'
 end)
+

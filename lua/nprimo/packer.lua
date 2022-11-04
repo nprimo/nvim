@@ -10,5 +10,7 @@ return require('packer').startup(function()
       use 'nvim-lua/plenary.nvim'
       use 'nvim-telescope/telescope.nvim'
       use 'nvim-treesitter/nvim-treesitter'
+      use 'akinsho/bufferline.nvim'
+      use 'lewis6991/gitsigns.nvim'
 end)
 

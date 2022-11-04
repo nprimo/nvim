@@ -7,4 +7,7 @@ return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
       use 'folke/tokyonight.nvim'
+      use 'nvim-lua/plenary.nvim'
+      use 'nvim-telescope/telescope.nvim'
+      use 'nvim-treesitter/nvim-treesitter'
 end)

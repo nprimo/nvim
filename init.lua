@@ -1,4 +1,5 @@
 require("nprimo")
+require("treesitter")
 require('gitsigns').setup()
 require("cmp-config")
 require("mason").setup()

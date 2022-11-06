@@ -8,6 +8,7 @@ return require('packer').startup(function()
       use 'wbthomason/packer.nvim'
     -- Color theme
       use 'folke/tokyonight.nvim'
+      use 'ellisonleao/gruvbox.nvim'
     -- Telescope packages
       use 'nvim-lua/plenary.nvim'
       use 'nvim-telescope/telescope.nvim'

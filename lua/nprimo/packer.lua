@@ -7,7 +7,6 @@ return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
     -- Color theme
-      use 'folke/tokyonight.nvim'
       use 'ellisonleao/gruvbox.nvim'
     -- Telescope packages
       use 'nvim-lua/plenary.nvim'
@@ -15,5 +14,8 @@ return require('packer').startup(function()
       use 'nvim-treesitter/nvim-treesitter'
     -- Git plugin
       use 'lewis6991/gitsigns.nvim'
+    -- Commenter
+      use 'preservim/nerdcommenter'
+
 end)
 

@@ -6,13 +6,13 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
+    -- Color theme
       use 'folke/tokyonight.nvim'
+    -- Telescope packages
       use 'nvim-lua/plenary.nvim'
       use 'nvim-telescope/telescope.nvim'
       use 'nvim-treesitter/nvim-treesitter'
-      use 'akinsho/bufferline.nvim'
+    -- Git plugin
       use 'lewis6991/gitsigns.nvim'
-      use 'hrsh7th/nvim-cmp'
-      use 'williamboman/mason.nvim'
 end)
 

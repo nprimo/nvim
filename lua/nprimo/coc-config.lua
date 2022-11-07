@@ -1,3 +1,6 @@
+-- Set up language server to include 
+vim.g.coc_global_extensions = { "coc-html", "coc-clangd", "coc-ltex", "coc-rust-analyzer", "coc-python", "coc-tsserver", "coc-json" }
+
 -- Some servers have issues with backup files, see #649.
 vim.opt.backup = false
 vim.opt.writebackup = false

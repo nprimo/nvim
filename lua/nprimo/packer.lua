@@ -18,5 +18,8 @@ return require('packer').startup(function()
       use 'preservim/nerdcommenter'
     -- CoC autocomplete
       use {'neoclide/coc.nvim', branch = 'release'}
+    -- Status line
+      use 'vim-airline/vim-airline'
+      use 'vim-airline/vim-airline-themes'
 end)
 

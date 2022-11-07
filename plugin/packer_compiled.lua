@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -84,20 +89,10 @@ _G.packer_plugins = {
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
-  ["mason.nvim"] = {
-    loaded = true,
-    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "https://github.com/williamboman/mason.nvim"
-  },
   nerdcommenter = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/preservim/nerdcommenter"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,

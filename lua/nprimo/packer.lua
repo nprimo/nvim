@@ -16,8 +16,7 @@ return require('packer').startup(function()
       use 'lewis6991/gitsigns.nvim'
     -- Commenter
       use 'preservim/nerdcommenter'
-    -- LSP packages 
-      use 'neovim/nvim-lspconfig'
-      use 'williamboman/mason.nvim'
+    -- CoC autocomplete
+      use {'neoclide/coc.nvim', branch = 'release'}
 end)
 

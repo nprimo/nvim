@@ -19,7 +19,6 @@ return require('packer').startup(function()
     -- CoC autocomplete
       use {'neoclide/coc.nvim', branch = 'release'}
     -- Status line
-      use 'vim-airline/vim-airline'
-      use 'vim-airline/vim-airline-themes'
+      use 'itchyny/lightline.vim'
 end)
 

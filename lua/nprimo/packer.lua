@@ -16,16 +16,8 @@ return require('packer').startup(function()
       use 'lewis6991/gitsigns.nvim'
     -- Commenter
       use 'preservim/nerdcommenter'
-    -- CMP autocompleter
+    -- LSP packages 
       use 'neovim/nvim-lspconfig'
       use 'williamboman/mason.nvim'
-      use 'hrsh7th/cmp-nvim-lsp'
-      use 'hrsh7th/cmp-buffer'
-      use 'hrsh7th/cmp-path'
-      use 'hrsh7th/cmp-cmdline'
-      use 'hrsh7th/nvim-cmp'
-      use 'hrsh7th/cmp-vsnip'
-      use 'hrsh7th/vim-vsnip' 
-      use 'onsails/lspkind-nvim'
 end)
 

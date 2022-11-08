@@ -21,6 +21,9 @@ return require('packer').startup(function()
     -- Status line
       use 'itchyny/lightline.vim'
     -- File explorer
-      use 'preservim/nerdtree'
+    use {
+      'nvim-tree/nvim-tree.lua',
+      --tag = 'nightly' -- optional, updated every week. (see issue #1193)
+    }
 end)
 

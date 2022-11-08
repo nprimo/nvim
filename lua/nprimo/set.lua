@@ -13,4 +13,5 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.opt.splitright = true
+vim.opt.autochdir = true
 vim.g.mapleader = ' '

@@ -11,4 +11,4 @@ vim.opt.termguicolors = true
 require("nvim-tree").setup()
 
 -- keymap
-vim.keymap.set("n", "<leader>t", ":NvimTreeToggle", {silent = true})
+vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>", {silent = true})

@@ -20,5 +20,7 @@ return require('packer').startup(function()
       use {'neoclide/coc.nvim', branch = 'release'}
     -- Status line
       use 'itchyny/lightline.vim'
+    -- File explorer
+      use 'preservim/nerdtree'
 end)
 

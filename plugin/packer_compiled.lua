@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nerdcommenter",
     url = "https://github.com/preservim/nerdcommenter"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",

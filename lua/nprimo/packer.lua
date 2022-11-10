@@ -20,10 +20,16 @@ return require('packer').startup(function()
       use {'neoclide/coc.nvim', branch = 'release'}
     -- Status line
       use 'itchyny/lightline.vim'
+      use 'itchyny/vim-gitbranch'
     -- File explorer
-    use {
-      'nvim-tree/nvim-tree.lua',
-      --tag = 'nightly' -- optional, updated every week. (see issue #1193)
-    }
+      use {
+        'nvim-tree/nvim-tree.lua',
+        --tag = 'nightly' -- optional, updated every week. (see issue #1193)
+      }
+    -- Markdown preview
+      use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+      })
 end)
 

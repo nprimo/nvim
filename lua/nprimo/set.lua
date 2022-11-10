@@ -13,7 +13,6 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.opt.splitright = true
-vim.g.mapleader = ' '
 
 vim.keymap.set("n", "<leader>v", ":vsplit<CR>")
 vim.keymap.set("n", "<leader>;", ":vsplit | terminal<CR>")

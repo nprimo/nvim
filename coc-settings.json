@@ -1,4 +1,4 @@
 {
   "Lua.telemetry.enable": false,
-  "coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "rust"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "rust", "markdown"],
 }

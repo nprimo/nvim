@@ -6,6 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
+      use 'arcticicestudio/nord-vim'
     -- Color theme
       use 'ellisonleao/gruvbox.nvim'
     -- Telescope packages

@@ -7,6 +7,7 @@ return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
       use 'arcticicestudio/nord-vim'
+      use '/rakr/vim-one'
     -- Color theme
       use 'ellisonleao/gruvbox.nvim'
     -- Telescope packages

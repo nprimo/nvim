@@ -7,7 +7,7 @@ return require('packer').startup(function()
     -- Packer can manage itself
       use 'wbthomason/packer.nvim'
       use 'arcticicestudio/nord-vim'
-      use '/rakr/vim-one'
+      use 'rakr/vim-one'
     -- Color theme
       use 'ellisonleao/gruvbox.nvim'
     -- Telescope packages
@@ -33,5 +33,15 @@ return require('packer').startup(function()
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
       })
+    -- Auto-save
+      use "Pocco81/auto-save.nvim"
+    -- Sartup dashboard
+      use {
+        'goolord/alpha-nvim',
+        requires = { 'nvim-tree/nvim-web-devicons' },
+        config = function ()
+            require'alpha'.setup(require'alpha.themes.startify'.config)
+        end
+      }
 end)
 

@@ -1,2 +1,2 @@
 vim.o.background = "dark"
-vim.cmd("colorscheme one")
+vim.cmd("colorscheme gruvbox")

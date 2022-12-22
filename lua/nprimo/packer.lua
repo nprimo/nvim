@@ -1,3 +1,4 @@
+-- Ensure we got packer installed
 local ensure_packer = function()
     local fn = vim.fn
     local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
@@ -15,31 +16,39 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+
     -- Color theme
     use 'arcticicestudio/nord-vim'
     use 'rakr/vim-one'
     use 'ellisonleao/gruvbox.nvim'
+
     -- Telescope packages
     use 'nvim-lua/plenary.nvim'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-treesitter/nvim-treesitter'
+
     -- Git plugin
     use 'lewis6991/gitsigns.nvim'
+
     -- Commenter
     use 'preservim/nerdcommenter'
+
     -- Status line
     use 'itchyny/lightline.vim'
     use 'itchyny/vim-gitbranch'
+
     -- File explorer
     use {
         'nvim-tree/nvim-tree.lua',
         --tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
+
     -- Markdown preview
     use({
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
+
     -- Sartup dashboard
     use {
         'goolord/alpha-nvim',
@@ -49,6 +58,7 @@ return require('packer').startup(function()
         end
     }
 
+    -- LSP stuff
     use {
         'VonHeikemen/lsp-zero.nvim',
         requires = {

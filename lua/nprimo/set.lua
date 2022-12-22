@@ -18,5 +18,3 @@ vim.cmd([[
     set clipboard^=unnamed,unnamedplus
 ]])
 
-vim.keymap.set("n", "<leader>v", ":vsplit<CR>")
-vim.keymap.set("n", "<leader>;", ":vsplit | terminal<CR>")

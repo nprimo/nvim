@@ -29,7 +29,7 @@ return require('packer').startup(function()
 
     -- Git plugin
     use 'lewis6991/gitsigns.nvim'
-
+    use 'tpope/vim-fugitive'
     -- Commenter
     use 'preservim/nerdcommenter'
 

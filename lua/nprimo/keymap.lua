@@ -1,5 +1,5 @@
 -- mapping to splitview
-vim.keymap.set("n", "<leader>v", ":vsplit<CR>")
+vim.keymap.set("n", "<leader>vs", ":vsplit<CR>")
 
 -- mapping to replace without replacing copied buffer
 vim.keymap.set("x", "<leader>p", [["_dP]])

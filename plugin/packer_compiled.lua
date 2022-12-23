@@ -115,11 +115,6 @@ _G.packer_plugins = {
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["gitsigns.nvim"] = {
-    loaded = true,
-    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
-    url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
@@ -209,11 +204,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-gitbranch"] = {
-    loaded = true,
-    path = "/home/nprimo/.local/share/nvim/site/pack/packer/start/vim-gitbranch",
-    url = "https://github.com/itchyny/vim-gitbranch"
   },
   ["vim-one"] = {
     loaded = true,

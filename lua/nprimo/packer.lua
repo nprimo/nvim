@@ -25,7 +25,7 @@ return require('packer').startup(function()
     -- Telescope packages
     use 'nvim-lua/plenary.nvim'
     use 'nvim-telescope/telescope.nvim'
-    use 'nvim-treesitter/nvim-treesitter'
+    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
     -- Git plugin
     use 'lewis6991/gitsigns.nvim'
@@ -42,6 +42,9 @@ return require('packer').startup(function()
         'nvim-tree/nvim-tree.lua',
         --tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
+
+    -- Undotree
+    use 'mbbill/undotree'
 
     -- Markdown preview
     use({
